@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lzo/9ynl3+ABOPRy5j+sUsdXtmft4rIVzY67LwG7MdM=",
+  "Hash": "lSNOgg/9iTDbSYUr6EYBQAhu59Gr+3z95As7hbDVFvE=",
   "Source": "FloatAB",
   "BasePath": "/",
   "Mode": "Root",
@@ -7155,23 +7155,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/index.html"
-    },
-    {
-      "Identity": "/Users/darthvader/Project/FloatAB/wwwroot/sample-data/weather.json",
-      "SourceId": "FloatAB",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/darthvader/Project/FloatAB/wwwroot/",
-      "BasePath": "/",
-      "RelativePath": "sample-data/weather.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/sample-data/weather.json"
     }
   ]
 }
