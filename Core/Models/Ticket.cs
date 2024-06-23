@@ -1,6 +1,6 @@
 namespace FloatAB.Core.Models
 {
-  public class Ticket
+  public class Ticket : ITicket
   {
     public int Id { get; set; }
     public string Title { get; set; }
