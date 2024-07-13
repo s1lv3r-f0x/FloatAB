@@ -1,11 +1,12 @@
 namespace FloatAB.Core.Models
 {
-  public class Ticket : ITicket
+  public class TicketEntity : ITicket
   {
-    public int Id { get; set; }
-    public string Title { get; set; }
-    public string? Description { get; set; }
-    public Priority Priority { get; set; }
+    public Guid Id { get; set; }
+    public string Title { get; set; } = string.Empty;
+    public string? Description { get; set; } = string.Empty;
+    public Priority Priority { get; set; } = Priority.Low;
+    public ColumnEntity ColumnEntity { get; set; }
   }
 }
 

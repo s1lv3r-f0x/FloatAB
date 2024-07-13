@@ -1,22 +1,21 @@
 ﻿@page "/board"
 
-<PageTitle>Board</PageTitle>
+@inject ApplicationDbContext DbContext
 
-<h1>Agile board</h1>
-
-<table class="table">
-      <thead>
-          <tr>
-              <th>Todo</th>
-              <th>Active</th>
-              <th>Done</th>
-          </tr>
-      </thead>
-      <tbody>
-      </tbody>
-</table>
-
-
-@code {
-
-}
+<div class="board">
+    @foreach (var column in DbContext.Columns.Include(c => c.Tickets))
+    {
+        <div class="column">
+            <h3>@column.Name</h3>
+            <div class="tickets">
+                @foreach (var ticket in column.Tickets)
+                {
+                    <div class="ticket" draggable="true">
+                        <h4>@ticket.Title</h4>
+                        <p>@ticket.Description</p>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+</div>
