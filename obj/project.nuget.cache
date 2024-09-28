@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fEOwp1LS7DQVRr5gVtYHVPQiUlEf2eQhLwtQLVrSTZJQdniQPrGyo66TKUpnFiKAxZi4d0Y5jV/1pXVI1MDEaw==",
+  "dgSpecHash": "VJiEUW9mOL/LLYpfTBVZVZyvK5pNiH2DDgZtLLJaYXtWRefbOJ+cWJhy0cSGJ+3c8Pt3d7sixepLQ3bcXWYxWg==",
   "success": true,
   "projectFilePath": "/Users/darthvader/Project/FloatAB/FloatAB.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,11 @@
     "/Users/darthvader/.nuget/packages/microsoft.aspnetcore.components.webassembly/7.0.11/microsoft.aspnetcore.components.webassembly.7.0.11.nupkg.sha512",
     "/Users/darthvader/.nuget/packages/microsoft.aspnetcore.components.webassembly.devserver/7.0.11/microsoft.aspnetcore.components.webassembly.devserver.7.0.11.nupkg.sha512",
     "/Users/darthvader/.nuget/packages/microsoft.aspnetcore.metadata/7.0.11/microsoft.aspnetcore.metadata.7.0.11.nupkg.sha512",
+    "/Users/darthvader/.nuget/packages/microsoft.entityframeworkcore/7.0.20/microsoft.entityframeworkcore.7.0.20.nupkg.sha512",
+    "/Users/darthvader/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.20/microsoft.entityframeworkcore.abstractions.7.0.20.nupkg.sha512",
+    "/Users/darthvader/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.20/microsoft.entityframeworkcore.analyzers.7.0.20.nupkg.sha512",
+    "/Users/darthvader/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/Users/darthvader/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
     "/Users/darthvader/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "/Users/darthvader/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "/Users/darthvader/.nuget/packages/microsoft.extensions.configuration.binder/7.0.4/microsoft.extensions.configuration.binder.7.0.4.nupkg.sha512",

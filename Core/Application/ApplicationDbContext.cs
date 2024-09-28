@@ -1,3 +1,5 @@
+
+using FloatAB.Core.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace FloatAB.Core.Application
